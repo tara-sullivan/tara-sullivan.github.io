@@ -1,2 +1,1 @@
-# tara-sullivan.github.io
-Tara Sullivan's personal website
+This blog builds on the theme [Huxprop](https://github.com/lynn9388/huxpro).
