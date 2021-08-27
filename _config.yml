@@ -5,4 +5,7 @@ name: Tara Sullivan
 email: tasulliv@ucsd.edu
 github_username: tasulliv
 linkedin_username: tara-sullivan-econ
-url: https://tara-sullivan.github.io/
+
+domain: tara-sullivan.github.io/       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://tara-sullivan.github.io/  # the base hostname and protocol for your site, e.g. http://example.com
+# baseurl: /tara-sullivan.github.io/     # place folder name if the site is served in a subfolder
