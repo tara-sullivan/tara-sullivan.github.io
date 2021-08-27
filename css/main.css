@@ -1,24 +1,40 @@
+/*
 body {
     margin: 60px auto;
     width: 70%;
+    /*padding-top: 20px;*/
+    /*padding-bottom: 40px;*/
+    font-family: 'Merriweather', Georgia, Times;
+    font-size: 16px; 
 }
+
+header, footer {
+    font-family: 'Montserrat', Helvetica, sans-serif; 
+    text-transform:uppercase; 
+    font-weight: normal; 
+}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
 a {
     text-decoration: none;
     color: #999;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -41,3 +57,4 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+*/
