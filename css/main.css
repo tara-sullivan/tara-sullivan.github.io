@@ -1,3 +1,45 @@
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+/* Default float is set for < 600px */
+ul.topnav li {
+    float: none;
+    border-left: 1px solid #e7e7e7;
+    border-top: 1px solid #e7e7e7;
+}
+
+ul.topnav li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: #333;
+    color:  white;
+}
+
+ul.topnav li a.active {background-color: #111;}
+
+/* if larger than 600 pixels... */
+@media screen and (min-width: 600px) {
+    /* default position for topnav is on the right... */
+    ul.topnav li {float: right;}
+    /* except fo the first link */
+    ul.topnav li:first-child {
+        float:left
+    }
+}
+
+
+
 /*
 body {
     margin: 60px auto;
