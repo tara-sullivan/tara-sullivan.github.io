@@ -13,6 +13,7 @@
     --UCSDGold: #C69214;
     --UCSDGreen: #6E963B;
     --UCSDOrange: #FC8900;
+    --pagew: 42em;
 }
 
 /* Global Reset */
@@ -63,7 +64,7 @@ p {
 .site {
   font-size: 100%;
   text-align: justify;
-  width: 42em;
+  width: var(--pagew);
   margin: 3em auto 2em auto;
   line-height: 1.5em;
 }
@@ -113,5 +114,43 @@ ul.topnav li:first-child a {
     color: var(--UCSDBlue);
 }
 
+
 /*ul.topnav li a.active {background-color: #111;}*/
+
+/*****************************************************************************/
+/*
+/* footer
+/*
+/*****************************************************************************/
+
+.footer {
+    font-size: 100%;
+    border-top: 1px solid var(--UCSDLightGray);
+    margin-top: 2em;
+    overflow: visible;
+    padding-top: 1em;
+}
+
+.footer ul {
+    list-style: none;
+    overflow: hidden;
+}
+.footer ul li {
+    display: inline;
+    float: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/*footer{
+    font-size: 100%;
+    border-top: 1px solid var(--UCSDLightGray);
+    margin-top: 2em;
+    overflow: visible;
+    /*padding:50px 0 65px*/
+/*}*/
+/*}*/
+/*.footer.list-inline{margin:0;padding:0}*/*/
 
