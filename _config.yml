@@ -14,9 +14,5 @@ collections:
     output: true
     permalink: /:path/
 
-
-plugins:
-  - jekyll-pdf-embed
-
 # Build settings
 markdown: kramdown
